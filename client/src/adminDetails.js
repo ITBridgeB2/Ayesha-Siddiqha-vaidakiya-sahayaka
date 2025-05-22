@@ -72,8 +72,8 @@ const AdminDetails = () => {
           <tr>
             <th style={styles.th}>ID</th>
             <th style={styles.th}>Username</th>
-            <th style={styles.th}>Email</th> {/* ✅ Added email column */}
-            <th style={styles.th}>Password</th> {/* ⚠️ For dev/demo only */}
+            <th style={styles.th}>Email</th> 
+            <th style={styles.th}>Password</th>
           </tr>
         </thead>
         <tbody>
@@ -81,7 +81,7 @@ const AdminDetails = () => {
             <tr key={admin.id}>
               <td style={styles.td}>{admin.id}</td>
               <td style={styles.td}>{admin.username}</td>
-              <td style={styles.td}>{admin.email}</td> {/* ✅ Email displayed here */}
+              <td style={styles.td}>{admin.email}</td> 
               <td style={styles.td}>{admin.password}</td>
             </tr>
           ))}
